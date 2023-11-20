@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Social Media Logos
+    </title>
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #04AA6D;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .GFG {
+            background-color: white;
+            border: 2px solid black;
+            color: green;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/128/3578/3578903.png" alt="fb" class="image"
+            style="width:15%">
+        <div class="middle">
+            <button class="GFG" onclick="window.location.href = 'https://tiktok.com';">
+                tiktok
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/128/11823/11823292.png" alt="fb" class="image"
+            style="width:15%">
+        <div class="middle">
+            <button class="GFG" onclick="window.location.href = 'https://twitter.com';">
+                x
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/128/665/665213.png" alt="fb" class="image"
+            style="width:15%">
+        <div class="middle">
+            <button class="GFG" onclick="window.location.href = 'https://www.pinterest.com/';">
+                pinterest
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://cdn1.iconfinder.com/data/icons/online-social-network-service/96/Asset_7-512.png" alt="fb" class="image"
+            style="width:15%">
+        <div class="middle">
+            <button class="GFG" onclick="window.location.href = 'https://www.snapchat.com/';">
+                snapchat
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-256.png" alt="fb" class="image"
+            style="width:15%">
+        <div class="middle">
+            <button class="GFG" onclick="window.location.href = 'https://www.youtube.com/';">
+                youtube
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
